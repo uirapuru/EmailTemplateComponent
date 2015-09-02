@@ -1,0 +1,36 @@
+{
+    "name": "tpn/email-template-component",
+    "description": "TPN Email Template Component",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Grzegorz Kaszuba",
+            "email": "grzegorz.kaszuba@letsgoholdings.com"
+        }
+    ],
+    "keywords": [
+        "email template"
+    ],
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "php": ">=5.3.1",
+        "tpn/base-main-bundle": "1.*",
+        "jms/serializer-bundle": "~0.13",
+        "symfony/monolog-bundle": "~2.4",
+        "twig/twig": "~1.0"
+    },
+    "require-dev":{
+        "phpunit/phpunit": "~4.2",
+        "mockery/mockery": "~0.9",
+        "fabpot/php-cs-fixer": "1.5.*",
+        "phing/phing" : "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "TPN\\EmailTemplatesComponent": ""
+        }
+    },
+    "target-dir": "TPN/EmailTemplatesComponent"
+}

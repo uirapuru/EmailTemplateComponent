@@ -1,0 +1,182 @@
+[
+    {
+        "type": "whiteBlock",
+        "children": [
+            {
+                "type": "header",
+                "children": [
+                    {
+                        "type": "normalText",
+                        "content": "Welcome to CurbanA, Shaquille!"
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "children": [
+                    {
+                        "type": "normalText",
+                        "content": "The place to earn free tickets & VIP rewards for promoting your favourite music festivals"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "whiteBlock",
+        "children": [
+            {
+                "type": "header",
+                "children": [
+                    {
+                        "type": "normalText",
+                        "content": "1. Request tickets to promote your favourite music festivals"
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "children": [
+                    {
+                        "type": "normalText",
+                        "content": "Click on the icon below to request tickets to the festival you'd like to promote.\nIf the campaign isn't live just yet, click I'm interested and you'll be the first to know when the tickets are available."
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "children": [
+                    {
+                        "type": "normalText",
+                        "content": "{{ requestTicketsButton }}"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "whiteBlock",
+        "children": [
+            {
+                "type": "header",
+                "children": [
+                    {
+                        "type": "normalText",
+                        "content": "2. Get tickets allocated and start promoting!"
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "children": [
+                    {
+                        "type": "normalText",
+                        "content": "Don't worry, if you don't sell the allocated tickets, you don't owe us anything."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "whiteBlock",
+        "children": [
+            {
+                "type": "header",
+                "children": [
+                    {
+                        "type": "normalText",
+                        "content": "3. Connect your social networks"
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "children": [
+                    {
+                        "type": "normalText",
+                        "content": "Find out which festivals and bands your friends like and earn your FREE ticket faster!"
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "children": [
+                    {
+                        "type": "normalText",
+                        "content": "{{ connectFacebookButton }}"
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "children": [
+                    {
+                        "type": "normalText",
+                        "content": "{{ connectTwitterButton }}"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "whiteBlock",
+        "children": [
+            {
+                "type": "header",
+                "children": [
+                    {
+                        "type": "normalText",
+                        "content": "Questions?"
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "children": [
+                    {
+                        "type": "normalText",
+                        "content": "Your Community Manager, Dean Attil is here to help, you can find their contact details in your {{ accountLink }}.\nor feel free to take our {{ ambassadorTourLink }}."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "whiteBlock",
+        "children": [
+            {
+                "type": "header",
+                "children": [
+                    {
+                        "type": "normalText",
+                        "content": "2. Get tickets allocated and start promoting!"
+                    }
+                ]
+            },
+            {
+                "type": "readOnly",
+                "contentId": "ticketConfirmationSummary",
+                "children": [
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "type": "normalText",
+                                "content": "Don't worry {{ firstName }},\nif you don't sell the allocated tickets, you don't owe us anything."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "type": "normalText",
+                                "content": "Don't worry, if you don't sell the allocated tickets, you don't owe us anything."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
